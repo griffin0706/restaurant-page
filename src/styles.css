@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #4a9782;
+  color: #fff9e5;
+  font-family: monospace;
+}
+.welcome {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #004030;
+}
+
+header button {
+  font-family: monospace;
+  font-size: 2rem;
+  width: 200px;
+  margin: 10px;
+  background-color: transparent;
+  border-radius: 5px;
+  border: 2px solid #4a9782;
+}
+
+nav {
+  background-color: transparent;
+}
+
+#content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  width: 50%;
+
+  margin: 30px auto auto auto;
+  border: 2px solid #004030;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+#content div {
+  text-align: justify;
+}
